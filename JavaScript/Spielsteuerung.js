@@ -329,8 +329,8 @@ class GameController {
         document.querySelector('#SchwierigkeitsGrad').style.display = 'none';
         document.querySelector('#Titel').style.display = 'none';
         document.querySelector('#Interface').style.display = 'block'
-        //this.levelManager.startLevel(startLevel, player); // Ebene starten
-        this.levelManager.startLevel('InformatikRaum', player)
+        this.levelManager.startLevel(startLevel, player); // Ebene starten
+        //this.levelManager.startLevel('InformatikRaum', player)
         console.log(`Spiel ist jetzt im Zustand: ${this.state}`);
     }
 
